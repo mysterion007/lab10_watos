@@ -1,6 +1,6 @@
 @base <http://raw.githubusercontent.com/mysterion007/lab10_watos/refs/heads/main/foaf.ttl> .
 
-@prefix dt: <http://raw.githubusercontent.com/mysterion007/lab10_watos/refs/heads/main/foaf.ttl> .
+@prefix dt: <http://raw.githubusercontent.com/mysterion007/lab10_watos/refs/heads/main/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -18,14 +18,14 @@
 
 <#dt> a foaf:Person ;
    rdfs:label "Diego Tapia" ;
-   rdfs:comment "Papu basado"@es , "Based papu"@es ;
+   rdfs:comment "Papu basado"@es , "Based papu"@en ;
    foaf:name "Diego Tapia" ;
    foaf:givenName "Diego" ;
    foaf:familyName "Tapia" ;
    foaf:age 24 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
    foaf:img <https://i.imgur.com/lKLqp6P.jpeg> ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm>,  <https://raw.githubusercontent.com/damson999/lab10/main/foaf.ttl>;
-   foaf:interest dbr:Semantic_web, dbr:Chile , dbr:Empanada , dbr:Pizza , dbr:Sushi; 
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm>,  <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl#jjj>;
+   foaf:interest dbr:Semantic_Web, dbr:Chile , dbr:Empanada , dbr:Pizza , dbr:Sushi; 
    social:likesMovie <http://dbpedia.org/resource/Pokémon:_The_First_Movie>, <http://dbpedia.org/resource/Minions_(film)>  ;
    social:hasSpiritAnimal dbr:Dog ;
    social:hasFavouritePlatonicSolid dbr:Icosahedron ;
